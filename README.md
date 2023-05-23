@@ -12,22 +12,9 @@ Asegurarse de tener instalado `git` . Esto se puede revisar muy facilmente a tre
 Procurar tener actualizado `node.js` a la versión `lts`. Si desea asegurarse, puede ejecutar el comando `npm doctor` que le indicara si cumple con los requisitos. Si el comando no se encuentra o `node.js` esta desactualizado, puede instalar `node.js --lts` mediante alguno de los siguientes pasos
 
 - En windows, desde la [pagina oficial](https://nodejs.org/en/), descargando y ejecutando la versión `lts`.
-- En Linux, a través de `nvm`.
-    - Abrir una terminal y ejecutar alguno de los siguientes comando
-      
-        ```bash
-        curl -o- [https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh](https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh) | bash
-        ```
-        
-        ```bash
-        wget -qO- [https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh](https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh) | bash
-        ```
-        
-    - Cerrar la terminal y abrir otra para ejecutar el siguiente comando para verificar la correcta instalación`nvm --version` . Una vez observada la versión, ejecutar el siguiente comando para instalar Node.js
-      
-        ```bash
-        nvm install --lts
-        ```
+- En Linux, a través de `nvm`. Podes descargarlo siguiendo los pasos de la sección [install and updating](https://github.com/nvm-sh/nvm#installing-and-updating) de su pagina en GitHub. 
+    - Tras instalar `nvm` , ejecuta el comando `nvm install --lts` lo que comenzara con el proceso para configurar `node js` en su pc.
+
 
 
 ## Instalación y ejecución
