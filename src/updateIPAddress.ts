@@ -1,3 +1,4 @@
+
 import { Contacto } from "../src/contactos";
 
 const updateIPAddress = (contactos: Contacto[]) =>
@@ -10,4 +11,5 @@ const updateIPAddress = (contactos: Contacto[]) =>
         };
     }); 
 };
+
 export{updateIPAddress};
